@@ -35,4 +35,4 @@
 - Вывод ошибок (messagebox)
 - И многое другое!
 
-https://tenor.com/ru/view/hacker-hacker-man-pepe-gif-25293378
+
