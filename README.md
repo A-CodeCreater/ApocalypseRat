@@ -35,4 +35,4 @@
 - Вывод ошибок (messagebox)
 - И многое другое!
 
-<div class="tenor-gif-embed" data-postid="25293378" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/hacker-hacker-man-pepe-gif-25293378">Hacker Hacker Man Sticker</a>from <a href="https://tenor.com/search/hacker-stickers">Hacker Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+https://tenor.com/ru/view/hacker-hacker-man-pepe-gif-25293378
