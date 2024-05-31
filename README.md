@@ -1,7 +1,7 @@
 
 ![kreed-rat](https://github.com/A-CodeCreater/ApocalypseRat/assets/171325238/adb90ba5-7f7c-4290-8e7d-9d3fb63b290a)
 ![tele](https://github.com/A-CodeCreater/ApocalypseRat/assets/171325238/c0accd00-9768-48cf-932f-f6232c2421e1)
-
+![kreed-rat](https://github.com/A-CodeCreater/ApocalypseRat/assets/171325238/adb90ba5-7f7c-4290-8e7d-9d3fb63b290a)
 
 ⚠️ _Дис_**КЛЕЙ**_мер_
 Автор не несет отвественности за ваши действия! Все предоставленно исключительно в ознакомительных целях.
