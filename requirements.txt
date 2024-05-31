@@ -1,0 +1,9 @@
+opencv-python
+pyTelegramBotAPI
+requests
+PyMsgBox
+pyautogui
+pyperclip
+numpy
+Pillow
+pypiwin32
