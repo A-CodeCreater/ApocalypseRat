@@ -1,8 +1,10 @@
-![hacker-hacker-man](https://github.com/A-CodeCreater/ApocalypseRat/assets/171325238/328c3933-490a-4083-bdac-2f582838bd22)
+
+![tele]![kreed-rat](https://github.com/A-CodeCreater/ApocalypseRat/assets/171325238/7dc42330-4098-4def-aa52-5ddff536b452)
+(https://github.com/A-CodeCreater/ApocalypseRat/assets/171325238/2e60afdd-04c8-4ae3-ae86-86d7b0c4a116)
 
 ⚠️ _Дис_**КЛЕЙ**_мер_
 Автор не несет отвественности за ваши действия! Все предоставленно исключительно в ознакомительных целях.
-
+ 
 🔥 ***Telegram-RAT***:
 - Управляйте компьютером с помощью телеграмма!
 
